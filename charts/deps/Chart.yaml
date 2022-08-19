@@ -26,7 +26,6 @@ appVersion: "0.11.4"
 home: https://open-metadata.org/
 
 sources:
-  - https://github.com/open-metadata/OpenMetadata
   - https://github.com/open-metadata/openmetadata-helm-charts
 
 keywords:
@@ -51,8 +50,7 @@ keywords:
   - datadiscovery
 
 maintainers:
-  - name: OpenMetadata
-    email: support@open-metadata.org
+  - name: cristiancalugaru
 
 icon: https://open-metadata.org/images/favicon.png
 

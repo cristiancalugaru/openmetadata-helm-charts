@@ -26,7 +26,6 @@ appVersion: "0.11.4"
 home: https://open-metadata.org/
 
 sources:
-  - https://github.com/open-metadata/OpenMetadata
   - https://github.com/cristiancalugaru/airflow-helm-charts
 
 keywords:
