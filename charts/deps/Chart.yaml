@@ -38,13 +38,13 @@ keywords:
   - datascience
   - data-engineering
   - data-catalog
-  - metadata-ape
+  - metadata-api
   - governance
   - data-profiling
   - metadata-management
   - dataengineering
   - dataquality
-  - bigdataanalytice
+  - bigdataanalytics
   - datadiscovery
 
 home: https://github.com/cristiancalugaru/openmetadata-helm-charts
