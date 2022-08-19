@@ -54,7 +54,7 @@ maintainers:
 
 icon: https://open-metadata.org/images/favicon.png
 
-# Add Dependencies of other charts
+# Add Dependencies of all other charts
 dependencies:
 - name: mysql
   version: "8.8.23"
