@@ -45,7 +45,7 @@ elasticsearch:
       memory: "1024M"
 
 # Airflow configurations for helm dependency
-# you can find more details about this here https://github.com/airflow-helm/charts
+# you can find more details about this here https://cristiancalugaru.github.io/airflow-helm-charts
 airflow:
   enabled: true
   airflow:
@@ -110,11 +110,11 @@ airflow:
       # NOTE: "" means cluster-default
       storageClass: ""
       size: 1Gi
-      accessMode: ReadWriteMany
+      accessMode: ReadWriteOnce
   logs:
     persistence:
       enabled: true
       # empty string means cluster-default
       storageClass: ""
-      accessMode: ReadWriteMany
+      accessMode: ReadWriteOnce
       size: 1Gi

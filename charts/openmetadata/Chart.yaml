@@ -1,6 +1,6 @@
 apiVersion: v2
 name: openmetadata
-description: A Helm chart for OpenMetadata on Kubernetes
+description: A Helm chart for OpenMetadata on Kubernetes using a custom airflow dependency helm
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -27,7 +27,7 @@ home: https://open-metadata.org/
 
 sources:
   - https://github.com/open-metadata/OpenMetadata
-  - https://github.com/open-metadata/openmetadata-helm-charts
+  - https://github.com/cristiancalugaru/airflow-helm-charts
 
 keywords:
   - metadata
