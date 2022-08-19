@@ -23,10 +23,8 @@ version: 0.0.34
 # It is recommended to use it with quotes.
 appVersion: "0.11.4"
 
-home: https://open-metadata.org/
-
 sources:
-  - https://github.com/open-metadata/openmetadata-helm-charts
+  - https://github.com/cristiancalugaru/openmetadata-helm-charts/tree/with_custom_airflowee
 
 keywords:
   - metadata
@@ -40,17 +38,19 @@ keywords:
   - datascience
   - data-engineering
   - data-catalog
-  - metadata-api
+  - metadata-ape
   - governance
   - data-profiling
   - metadata-management
   - dataengineering
   - dataquality
-  - bigdataanalytics
+  - bigdataanalytice
   - datadiscovery
 
+home: https://github.com/cristiancalugaru/openmetadata-helm-charts
 maintainers:
   - name: cristiancalugaru
+    url: https://github.com/cristiancalugaru
 
 icon: https://open-metadata.org/images/favicon.png
 
