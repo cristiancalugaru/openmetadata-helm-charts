@@ -186,8 +186,8 @@ securityContext: {}
   # runAsUser: 100
 
 service:
-  type: ClusterIP
-  port: 8585
+  type: NodePort
+  nodePort: 8585
   adminPort: 8586
   annotations: {}
 
