@@ -189,6 +189,7 @@ service:
   type: NodePort
   port: 8585
   nodePort: 8585
+  targetPort: 8585
   adminPort: 8586
   annotations: {}
 
