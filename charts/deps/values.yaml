@@ -73,6 +73,13 @@ airflow:
       firstName: Peter
       lastName: Parker
   web:
+    service:
+      type: NodePort
+      port: 8080
+      nodePort:
+        http: ""
+      targetPort: 8080
+      annotations: {}
     readinessProbe:
       enabled: true
       initialDelaySeconds: 360
