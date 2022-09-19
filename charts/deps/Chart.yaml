@@ -65,6 +65,6 @@ dependencies:
   repository: "https://helm.elastic.co"
   condition: elasticsearch.enabled
 - name: airflow
-  version: "8.5.3"
+  version: "8.6.1"
   repository: "https://cristiancalugaru.github.io/airflow-helm-charts"
   condition: airflow.enabled
