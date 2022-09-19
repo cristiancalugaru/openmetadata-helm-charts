@@ -125,3 +125,7 @@ airflow:
       storageClass: ""
       accessMode: ReadWriteOnce
       size: 1Gi
+  scheduler:
+    logCleanup:
+      enabled: false
+      
