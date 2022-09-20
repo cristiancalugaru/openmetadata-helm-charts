@@ -3,7 +3,7 @@ name: Release Open Metadata Charts
 on:
   push:
     branches:
-      - main
+      - with_custom_airflow
     paths-ignore:
       - '**.md'
       - 'LICENSE'
