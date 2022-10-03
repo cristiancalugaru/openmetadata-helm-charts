@@ -2,6 +2,44 @@ apiVersion: v1
 entries:
   openmetadata:
   - apiVersion: v2
+    appVersion: 0.12.1
+    created: "2022-10-03T21:18:54.230598089Z"
+    description: A Helm chart for OpenMetadata on Kubernetes using a custom built
+      airflow dependency helm
+    digest: 1a624b1eac10d876dd1460377af56cb99a5a90af6bf3973c86d58db1d16877f9
+    home: https://open-metadata.org/
+    icon: https://open-metadata.org/images/favicon.png
+    keywords:
+    - metadata
+    - data-science
+    - data
+    - machine-learning
+    - automation
+    - big-data
+    - bigdata
+    - artificial-intelligence
+    - datascience
+    - data-engineering
+    - data-catalog
+    - metadata-api
+    - governance
+    - data-profiling
+    - metadata-management
+    - dataengineering
+    - dataquality
+    - bigdataanalytics
+    - datadiscovery
+    maintainers:
+    - email: support@open-metadata.org
+      name: OpenMetadata
+    name: openmetadata
+    sources:
+    - https://github.com/cristiancalugaru/openmetadata-helm-charts
+    type: application
+    urls:
+    - https://github.com/cristiancalugaru/openmetadata-helm-charts/releases/download/openmetadata-0.0.39/openmetadata-0.0.39.tgz
+    version: 0.0.39
+  - apiVersion: v2
     appVersion: 0.12.0
     created: "2022-09-09T09:57:10.362702155Z"
     description: A Helm chart for OpenMetadata on Kubernetes with custom airflow
@@ -39,6 +77,56 @@ entries:
     - https://github.com/cristiancalugaru/openmetadata-helm-charts/releases/download/openmetadata-0.0.37/openmetadata-0.0.37.tgz
     version: 0.0.37
   openmetadata-dependencies:
+  - apiVersion: v2
+    appVersion: 0.12.1
+    created: "2022-10-03T21:18:54.397351585Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.23
+    - condition: elasticsearch.enabled
+      name: elasticsearch
+      repository: https://helm.elastic.co
+      version: 7.10.2
+    - condition: airflow.enabled
+      name: airflow
+      repository: https://cristiancalugaru.github.io/airflow-helm-charts
+      version: 8.6.1
+    description: Helm Dependencies for OpenMetadata
+    digest: eaa0c2a17fe9175cb7901d7ff7f49d49e14776d0158ee7639e97377c43695e34
+    home: https://github.com/cristiancalugaru/openmetadata-helm-charts
+    icon: https://open-metadata.org/images/favicon.png
+    keywords:
+    - metadata
+    - data-science
+    - data
+    - machine-learning
+    - automation
+    - big-data
+    - bigdata
+    - artificial-intelligence
+    - datascience
+    - data-engineering
+    - data-catalog
+    - metadata-api
+    - governance
+    - data-profiling
+    - metadata-management
+    - dataengineering
+    - dataquality
+    - bigdataanalytics
+    - datadiscovery
+    maintainers:
+    - name: cristiancalugaru
+      url: https://github.com/cristiancalugaru
+    name: openmetadata-dependencies
+    sources:
+    - https://github.com/cristiancalugaru/openmetadata-helm-charts/tree/with_custom_airflow
+    type: application
+    urls:
+    - https://github.com/cristiancalugaru/openmetadata-helm-charts/releases/download/openmetadata-dependencies-0.0.39/openmetadata-dependencies-0.0.39.tgz
+    version: 0.0.39
   - apiVersion: v2
     appVersion: 0.12.0
     created: "2022-09-09T09:57:10.586616526Z"
@@ -89,4 +177,4 @@ entries:
     urls:
     - https://github.com/cristiancalugaru/openmetadata-helm-charts/releases/download/openmetadata-dependencies-0.0.37/openmetadata-dependencies-0.0.37.tgz
     version: 0.0.37
-generated: "2022-09-20T13:50:16.602801034Z"
+generated: "2022-10-03T21:18:54.397365885Z"
