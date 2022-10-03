@@ -55,6 +55,7 @@ airflow:
       pullPolicy: "IfNotPresent"
     executor: "KubernetesExecutor"
     config:
+      AIRFLOW__WEBSERVER__BASE_URL: https://dev-airflow.frdstr.com
       # This is required for OpenMetadata UI to fetch status of DAGs
       AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth
       # OpenMetadata Airflow Lineage Backend Configurations
