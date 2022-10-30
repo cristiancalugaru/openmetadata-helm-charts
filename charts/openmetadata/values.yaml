@@ -260,6 +260,7 @@ extraVolumeMounts: []
 #   mountPath: /usr/share/extras
 #   readOnly: true
 
+# other init containers
 extraInitContainers: []
 
 resources: {}
